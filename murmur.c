@@ -14,7 +14,7 @@ typedef unsigned __int64 uint64_t;
 /*  usage:
  *
  *  murmur = require("murmur")
- *  hash = murmur.hash64A( str [, sL [, sH]] )
+ *  hashHigh, hashLow = murmur.hash64A( str [, sL [, sH]] )
  *
  *  str - string
  *  sL - seed low bits (32bit)
